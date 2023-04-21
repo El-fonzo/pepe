@@ -3,7 +3,7 @@
 }
 .hero__inner-cont{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
  
   place-content: center;
   padding: 2rem 0;
@@ -13,14 +13,13 @@
   width: 100%; 
   height: 90%;
   padding-top: 2rem;
-  color: blueviolet;
 }
 .hero__inner-cont__left{
   display: flex;
   gap: 1rem;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
  
 }
 .buttondiv{ 
@@ -32,16 +31,19 @@
   font-weight: 900;
   font-size: 48px;
   line-height: 120%;
-  color: #E9E9E9;
-  width: 90%
+  color: #0a0a0a;
+  width: 90%;
+  text-align: center;
 }
 .hero__inner-cont__left p {
   font-style: normal;
-  width: 552px;
   font-weight: 400;
   font-size: 19px;
   line-height: 160%;
-  color: #E2EAFF;
+  color: #0a0a0a;
+  text-align: center;
+ 
+
 }
 .hero__inner-cont__left__btn{
   align-items: flex-start;
@@ -71,8 +73,8 @@
     font-weight: 400;
     font-size: calc(19px - 20%);
     line-height: calc(160% - 20%);
-    color: #E2EAFF;
-    background: black;
+
+
     box-shadow:
     -50px -50px 0 -40px blue,
     50px 50px 0 -40px blue;
@@ -89,7 +91,6 @@
   }
   .hero__inner-cont__left p, .hero__inner-cont__left h1 {
     text-align: center;
-    color: #E2EAFF;
     width: 100%;
   }
   .hero__inner-cont__left__btn{

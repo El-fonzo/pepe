@@ -16,8 +16,8 @@ const Hero = () => {
         
                 
                     <div className="  hero__inner-cont__left ">
-                        <h1 className="">$Pepe</h1>
-                        <p className="">We assist and connect businesses to markets and researchers to gather quality, useful, and factual insights to inform their business strategies and plans for business growth</p>
+                        <h1 className="">CROC PEPE</h1>
+                        <p className="">Pepe world Order</p>
                       
                     </div>
                     
