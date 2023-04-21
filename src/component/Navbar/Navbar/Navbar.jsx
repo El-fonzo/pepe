@@ -19,16 +19,16 @@ const Navbar = () => {
               <li><a href="#doc">About</a></li>
               <li><a href="#comm">Solution</a></li>
               <li><a href="#comm">How it Works</a></li>
-              <li><a href="#comm">Roadmap</a></li>
-              <li><a href="#comm">White paper</a></li>
+              {/* <li><a href="#comm">Roadmap</a></li>
+              <li><a href="#comm">White paper</a></li> */}
             </ul>
 
           <div className="nav__menu-btn">
 
-              {/* <button className='nav__login-btn'><a href="/" target="_blank" rel="noopener noreferrer">Log in</a></button>
+              {/* <button className='nav__login-btn'><a href="/" target="_blank" rel="noopener noreferrer">buy</a></button> */}
               <button className="btn nav__launchapp-btn">
-                <a href="/" target="_blank" rel="noopener noreferrer">LAUNCH APP</a>
-              </button> */}
+                <a href="/" target="_blank" rel="noopener noreferrer">BUY $Sugs</a>
+              </button>
           </div>
           </div>
           <div className="nav__menu-container-link-sign" />
@@ -59,8 +59,8 @@ const Navbar = () => {
 
                 <div className="nav__btn">
                 
-                      {/* <button className='login-btn'><a href="/" target="_blank" rel="noopener noreferrer">Log In</a></button>
-                      <button className="btn launchapp-btn"><a href="/" target="_blank" rel="noopener noreferrer">LAUNCH APP</a></button>  */}
+                      {/* <button className='login-btn'><a href="/" target="_blank" rel="noopener noreferrer">Log In</a></button> */}
+                      <button className="btn launchapp-btn"><a href="/" target="_blank" rel="noopener noreferrer">BUY</a></button> 
                       {open ? <BiX className='ham__cro' onClick={()=>setOpen(false)}/> : < BiMenu className='ham__cro' onClick={()=>setOpen(true)}/> }
                       
                 </div>

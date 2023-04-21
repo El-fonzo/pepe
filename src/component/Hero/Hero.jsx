@@ -16,9 +16,12 @@ const Hero = () => {
         
                 
                     <div className="  hero__inner-cont__left ">
-                        <h1 className="">CROC PEPE</h1>
-                        <p className="">Pepe world Order</p>
-                      
+                        <p>Reach the moon</p>
+                        <h1 className="">From memes to riches.</h1>
+                        <p className="">Sugondese toke($sugs) is a community focused, decentraloised crypto currency with instantrewards for holder</p>
+                        <button className="btn hero-btn">
+                            <a href="/" target="_blank" rel="noopener noreferrer">BUY $Sugs</a>
+                        </button>
                     </div>
                     
                     <div className="  hero__inner-cont__right">
