@@ -30,7 +30,6 @@
   font-weight: 900;
   font-size: 48px;
   line-height: 120%;
-  color: #0a0a0a;
   width: 90%;
   
 }
@@ -39,10 +38,6 @@
   font-weight: 400;
   font-size: 19px;
   line-height: 160%;
-  color: #0a0a0a;
-
- 
-
 }
 .hero__inner-cont__left__btn{
   align-items: flex-start;
@@ -55,8 +50,8 @@
 @media screen and (max-width: 1020px) {
 
   .hero__inner-cont__left{
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .hero__inner-cont__left h1{
@@ -71,9 +66,7 @@
     justify-content: center;
    
   }
-  .hero-btn{
-    align-items: center;
-  }
+
   .hero__inner-cont__left p {
     font-style: normal;
     width: calc(90% - 10%);
@@ -81,10 +74,10 @@
     font-size: calc(19px - 20%);
     line-height: calc(160% - 20%);
 
-
+/* 
     box-shadow:
     -50px -50px 0 -40px blue,
-    50px 50px 0 -40px blue;
+    50px 50px 0 -40px blue; */
 }
 
 
@@ -98,14 +91,22 @@
    
     place-content: center;
   }
-  .hero__inner-cont__left p, .hero__inner-cont__left h1 {
+  .hero__inner-cont__left p, .hero__inner-cont__left h1{
     text-align: center;
     width: 100%;
   }
+ 
   .hero__inner-cont__left__btn{
     align-items: center;
     color: #fff;
     
+  }
+
+  .hero__inner-cont__left{
+ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
  
 }
