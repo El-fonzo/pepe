@@ -56,7 +56,7 @@
         text-align: center;
     }
 }
-/* MEDIA QUERY PHONE */
+/* MEDIA QUERY PHONE  */
 @media screen and (max-width:600px){
     .card-holder{
        grid-template-columns: 1fr; 
