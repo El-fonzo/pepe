@@ -22,7 +22,7 @@
     text-align: center;
     padding: 1rem;
     border-radius: var(--border-radius-3);
-    background:#1f5143;
+    background:#162523 ;
 }
 .icon1{color:rgb(223, 255, 127)}
 .icon2{color:rgb(255, 127, 221)}
@@ -36,7 +36,7 @@
     align-items: center;
     transition: var(--transition);
     border-radius: var(--border-radius-3);
-    background: #2f5e50;
+    background: #203733;
 }
 
 .card.about__card h5{
