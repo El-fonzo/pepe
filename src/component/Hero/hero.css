@@ -27,7 +27,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 10rem  7rem 7rem ;
+  margin: 7rem  0;
 }
 .buttondiv{ 
   display: flex;
