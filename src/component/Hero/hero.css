@@ -60,6 +60,7 @@
   .hero__inner-cont__left{
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 5rem 0rem   ;
   }
 
   .hero__inner-cont__left h1{
