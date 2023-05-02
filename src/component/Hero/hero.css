@@ -1,10 +1,7 @@
-.hero__container{
- 
-  }
-  .hero__inner-cont{
-    height: 90vh;
-  }
+
+
 .hero__inner-cont{
+  height: 90vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
@@ -27,7 +24,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 7rem  0;
+  /* margin: 7rem  0; */
 }
 .buttondiv{ 
   display: flex;
@@ -60,7 +57,7 @@
   .hero__inner-cont__left{
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 5rem 0rem   ;
+    /* margin: 5rem 0rem   ; */
   }
 
   .hero__inner-cont__left h1{
@@ -83,10 +80,10 @@
     font-size: calc(19px - 20%);
     line-height: calc(160% - 20%);
 
-/* 
+
     box-shadow:
     -50px -50px 0 -40px blue,
-    50px 50px 0 -40px blue; */
+    50px 50px 0 -40px blue;
 }
 
 
@@ -97,7 +94,7 @@
   .hero__inner-cont{
     display: grid;
     grid-template-columns:1fr;
-    margin: 5rem 0rem ;
+    /* margin: 5rem 0rem ; */
     place-content: center;
   }
   .hero__inner-cont__left p, .hero__inner-cont__left h1{
