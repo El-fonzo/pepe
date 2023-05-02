@@ -1,10 +1,10 @@
 
 
 nav{
-    background: #040C18; ; 
+    background: #0f6037; 
     position: sticky;
     top: 0px;
-    border-radius: 10px;
+ 
     z-index: 1000;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     color: #fff;
@@ -62,6 +62,11 @@ nav{
 }
 .nav__menu-container{
     display: none;
+}
+.nav__logo{
+ 
+    object-fit: cover;
+    transform: scaleX(-1);
 }
 
 

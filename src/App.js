@@ -13,8 +13,8 @@ function App() {
      <Navbar/>
      <Hero/>
      <About/>
-     <Roadmap/>
-     <Tokenomics/>
+     {/* <Roadmap/> */}
+     {/* <Tokenomics/> */}
      <Footer/>
     </div>
   );

@@ -8,7 +8,7 @@ const Tokenomics = () => {
     <div >
     <div className="container hero_inner-cont">
 
-        <div className="title"> <h2>Tokenomics</h2></div>
+        <div className="title"> <h2>Socials</h2></div>
         <div className="card-holder">
         {
           data.map( item => 

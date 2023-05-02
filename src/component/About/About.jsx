@@ -20,7 +20,7 @@ function About() {
             {
               data.map( item => 
               <Card key={item.id} className = "about__card">
-                <span className="about__card-icon">{item.icon}</span>
+                <span className= {`${item.className} about__card-icon `}>{item.icon}</span>
                 <h5>{item.title}</h5>
                 <small>{item.desc}</small>
               </Card>)

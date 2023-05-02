@@ -1,17 +1,13 @@
 
 import React from 'react'
 import './hero.css'
-import pepe from  '../../asset/pepe.png'
+import pepe from  '../../asset/eth.png'
 
 const Hero = () => {
-    const style = {
-        backgroundSize: ' 100% 100%',
-        backgroundPosition: '0px 0px,0px 0px,0px 0px,0px 0px',
-       
-    } 
+   
     
   return (
-    <div style={ style} >
+    <div  >
         <div className="container hero__inner-cont">
         
                 

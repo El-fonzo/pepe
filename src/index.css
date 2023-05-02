@@ -27,7 +27,10 @@ body{
   font-family: 'Manrope', sans-serif;
   line-height:1.6;
   font-size: 0.9rem;
-  background:   #040C18; 
+
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(4%2c 67%2c 15%2c 1)'%3e%3c/rect%3e%3cpath d='M1440 0L1153.77 0L1440 201.56z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1153.77 0L1440 201.56L1440 296.8L1036.8799999999999 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1036.88 0L1440 296.8L1440 340.36L909.9600000000002 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M909.96 0L1440 340.36L1440 418.03000000000003L751.62 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L125.63 560L0 379.36z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 379.36L125.63 560L663.53 560L0 299.93z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 299.93L663.53 560L1089.84 560L0 186.5z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 186.5L1089.84 560L1272.3899999999999 560L0 183.94z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+   background-size: 100% 100%;
+
   color: white;
 }
 
@@ -45,6 +48,10 @@ section{
  
 }
 
+/* bg-pattern */
+
+
+
 a{
   color: #191818;
 }
@@ -52,7 +59,7 @@ a{
   padding:10px 22px ;
   font-weight: 500;
   text-align: center;
-  background: #0C37AA;
+  background: #ca51e3;
   border-radius: 6px;
 }
 .btn-trans{
@@ -65,7 +72,7 @@ a{
 .btn:hover{
   transition: var(--transition);
  
-  background: linear-gradient(90deg, #1346CF -1.49%, #2FAAFB 101.74%);
+  background: linear-gradient(90deg, #ca51e3 -1.49%, #d773eb 101.74%);
 }
 .btn-trans:hover{
   transition: var(--transition);

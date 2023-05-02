@@ -7,6 +7,7 @@ import { BiMenu, BiX } from "react-icons/bi";
 
 import { useState } from 'react'
 import "./navbar.css"
+import logo from "../../../asset/logo.jpg"
 
 const Navbar = () => {
       const[open, setOpen] = useState(false)
@@ -42,7 +43,7 @@ const Navbar = () => {
             <div className="container nav__container">
               
                 <div className="nav__logo">
-                  <img src="/../public/asset/logo.png" alt="logo" />
+                  <img src={logo} alt="logo" />
                 </div>
                 
               
