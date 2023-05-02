@@ -97,7 +97,7 @@
   .hero__inner-cont{
     display: grid;
     grid-template-columns:1fr;
-   
+    margin: 5rem 0rem ;
     place-content: center;
   }
   .hero__inner-cont__left p, .hero__inner-cont__left h1{
