@@ -28,7 +28,7 @@ const Hero = () => {
                                 <a href="https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer">Join Community </a>
                             </button>
                             <button className="btn hero-btn">
-                                <a href="/" target="_blank" rel="noopener noreferrer">Learn More </a>
+                                <a href="/" target="_blank" rel="noopener noreferrer">Buy Ligma </a>
                             </button>
                         </div>
                         <div className="logo-link">
@@ -47,24 +47,7 @@ const Hero = () => {
 
 
 
-{/*                     
-                    <div className="  hero__inner-cont__right ">
-                         <img src= {pepe} alt=""  className="image"/>
-                    </div> */}
-                    
 
-                {/* <div className="hero">
-                    <div className="hero-text">
-                    <h1>We make it clear and simple <br/><span>LIGMA</span></h1>
-                    
-                    </div>
-                   
-
-                     <div className="  hero__inner-cont__right">
-                        <img src= {pepe} alt=""  className="image"/>
-                        
-                    </div>
-                </div> */}
              
        
     </div>
