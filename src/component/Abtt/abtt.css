@@ -34,8 +34,12 @@
 
   }
   .right-text h2{
-    font-family: var(--font-oswald);
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 100%;
+    width: 90%;
+    font-family: 'Logik Wide Semi', var(--font-oswald);
+    font-style: normal;
   }
   .right-text h2 span{
     color: #ca51e3;
@@ -43,8 +47,10 @@
   }
   .right-text__heading{
     color: #ca51e3;
-    font-size: 19px;
-    font-family: 'Logik Wide ',var(--font-roboto);
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    letter-spacing: 2px;
+    font-weight: bold;
   }
   .buttondiv{ 
     display: flex;

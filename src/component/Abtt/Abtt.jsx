@@ -7,7 +7,7 @@ const Abtt = () => {
     <div className='  abtt-container'>
         <div className="container abtt-inner">
             <div className="right-text">
-            <p className='right-text__heading'>What is LIGMA  ?</p>
+            <p className='right-text__heading'>LIGMANOMICS</p>
 
             <h2>There's no curing <span>$LIGMA</span>, ape and get infected.
             </h2>

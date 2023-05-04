@@ -20,7 +20,7 @@ const Hero = () => {
                         <div className="buttondiv">
 
                             <button className="btn hero-btn">
-                                <a href="/" target="_blank" rel="noopener noreferrer">Join Community </a>
+                                <a href="https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer">Join Community </a>
                             </button>
                             <button className="btn hero-btn">
                                 <a href="/" target="_blank" rel="noopener noreferrer">Learn More </a>

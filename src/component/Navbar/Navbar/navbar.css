@@ -76,10 +76,10 @@ nav{
 .nav__menu-container{
     display: none;
 }
-.nav__logo{
- 
-    object-fit: cover;
-    transform: scaleX(-1);
+.nav__logo img{
+  
+   width:7rem;
+   
 }
 
 

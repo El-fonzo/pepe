@@ -12,11 +12,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const socials = [
  
-  {id: 2, link: 'https://twitter.com', icon: <FaTwitter/>},
-  {id: 3, link: 'https://medium.com', icon:  <SiMedium/>},
-  {id: 4, link: 'https://github.com', icon: <AiOutlineGithub/>},
-  {id: 5, link: 'https://discord.com', icon: <SiDiscord/>},
-  {id: 6, link: 'https://telegram.org', icon: <FaTelegramPlane/>},
+  {id: 2, link: 'https://twitter.com/ligmaerc', icon: <FaTwitter/>},
+  {id: 3, link: 'https://medium.com/ligmanuts', icon:  <SiMedium/>},
+  // {id: 4, link: 'https://github.com', icon: <AiOutlineGithub/>},
+  // {id: 5, link: 'https://discord.com', icon: <SiDiscord/>},
+  {id: 6, link: 'https://t.me/ligmacoin', icon: <FaTelegramPlane/>},
 ]
 
 const Footer = () => {

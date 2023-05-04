@@ -7,7 +7,7 @@ import { BiMenu, BiX } from "react-icons/bi";
 
 import { useState } from 'react'
 import "./navbar.css"
-import logo from "../../../asset/logo.jpg"
+import logo from "../../../asset/limalogo.png"
 
 const Navbar = () => {
 
