@@ -28,14 +28,14 @@ const Hero = () => {
                                 <a href="https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer">Join Community </a>
                             </button>
                             <button className="btn hero-btn">
-                                <a href="/" target="_blank" rel="noopener noreferrer">Buy Ligma </a>
+                                <a href="https://etherscan.io/token/0x8ec891a6f3897700de73c01d4ffe7f34f0330b66#code" target="_blank" rel="noopener noreferrer">Buy Ligma </a>
                             </button>
                         </div>
                         <div className="logo-link">
-                             <a href="/" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo" /></a>
-                            <a href="https://twitter.com/ligmaerc" target="_blank" rel="noopener noreferrer"><img src={etherscan} alt="etherscan logo" /></a>
-                             <a href="https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="telegram logo" /></a>
-                             <a href="/" target="_blank" rel="noopener noreferrer"><img src={uniswap} alt="uniswap logo" /></a>
+                             <a href="https://twitter.com/ligmaerc" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter" /></a>
+                            <a href="  https://etherscan.io/token/0x8ec891a6f3897700de73c01d4ffe7f34f0330b66#code" target="_blank" rel="noopener noreferrer"><img src={etherscan} alt="etherscan" /></a>
+                             <a href="https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="telegra" /></a>
+                             <a href="/" target="_blank" rel="noopener noreferrer"><img src={uniswap} alt="uniswap" /></a>
                         </div>
   </div>
                   
