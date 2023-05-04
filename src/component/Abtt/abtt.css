@@ -3,8 +3,8 @@
     background:  #1c2a28;
     border-radius: 1.5rem;
    
-  margin: 5rem 0;
-
+  margin: 5rem 1rem;
+  padding: 7rem 0;
   
 }
 
@@ -20,7 +20,7 @@
     place-content: center;
     background: url(../../asset/why-us-pattern1.png);
   
-    height: 60vh;
+    
   
   
   }
@@ -42,11 +42,11 @@
     font-style: normal;
   }
   .right-text h2 span{
-    color: #ca51e3;
+    color: #f3b54c ;
     font-family: 'Logik Wide Bold Oblique';
   }
   .right-text__heading{
-    color: #ca51e3;
+    color: #f3b54c ;
     font-size: 18px;
     font-family: var(--font-roboto);
     letter-spacing: 2px;
