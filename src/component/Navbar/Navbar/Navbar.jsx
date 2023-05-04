@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="nav__menu-container-link scale-up-ver-top">
             <ul className="nav__menu-link">
               <li><img src={twitter} alt="twitter" /><a href=" https://twitter.com/ligmaerc ">Twitter</a></li>
-               <li><img src={etherscan} alt="etherscan" /><a href="#comm">Etherscan</a></li>
+               <li><img src={etherscan} alt="etherscan" /><a href="https://etherscan.io/token/0x8ec891a6f3897700de73c01d4ffe7f34f0330b66#code">Etherscan</a></li>
               <li><img src={telegram} alt="telegram" /><a href=" https://t.me/ligmacoin">Telegram</a></li> 
                <li><img src={uniswap} alt="uniswap " /><a href="">Uniswap</a></li>
               {/* <li><a href="#comm">White paper</a></li> */}
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <div className="nav__link">
                           <ul className="nav-link">
                           <li><a href=" https://twitter.com/ligmaerc ">Twiiter</a></li>
-                          <li><a href="#comm">Etherscan</a></li>
+                          <li><a href="https://etherscan.io/token/0x8ec891a6f3897700de73c01d4ffe7f34f0330b66#code">Etherscan</a></li>
                           <li><a href=" https://t.me/ligmacoin">Telegram</a></li> 
                           <li><a href="#comm">Uniswap</a></li>
                             {/* <li><a href="#comm">White paper</a></li> */}
