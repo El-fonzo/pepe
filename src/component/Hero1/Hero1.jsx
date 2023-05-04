@@ -1,7 +1,12 @@
 
-import React from 'react'
-import './hero1.css'
-import lig from  '../../asset/newtwo.png'
+import React from 'react';
+import './hero1.css';
+import lig from  '../../asset/newtwo.png';
+import twitter from '../../asset/twitter.png';
+import etherscan from '../../asset/etherscan.png';
+import telegram from '../../asset/telgram.png';
+import uniswap from '../../asset/uniswap.png'
+ 
 
 const Hero = () => {
    
@@ -26,8 +31,13 @@ const Hero = () => {
                                 <a href="/" target="_blank" rel="noopener noreferrer">Learn More </a>
                             </button>
                         </div>
-
-                    </div>
+                        <div className="logo-link">
+                             <a href="/" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo" /></a>
+                            <a href="https://twitter.com/ligmaerc" target="_blank" rel="noopener noreferrer"><img src={etherscan} alt="etherscan logo" /></a>
+                             <a href="https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="telegram logo" /></a>
+                             <a href="/" target="_blank" rel="noopener noreferrer"><img src={uniswap} alt="uniswap logo" /></a>
+                        </div>
+  </div>
                   
                     <div className="hero-img">
                        
