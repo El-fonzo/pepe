@@ -83,11 +83,12 @@ a{
 .btn:hover{
   transition: var(--transition);
   transform: translateY(-1px);
-  background: linear-gradient(90deg, #ca51e3 -1.49%, #d773eb 101.74%);
+  background: #ed6622;
 }
 .btn-trans:hover{
   transition: var(--transition);
   transform: translateY(1px);
+  
 
 
   }
