@@ -1,10 +1,10 @@
 import React from 'react'
 import './abtt.css'
-import { SiPandas } from 'react-icons/si'
+
 
 const Abtt = () => {
   return (
-    <div className=' abtt-container'>
+    <div className='  abtt-container'>
         <div className="container abtt-inner">
             <div className="right-text">
             <p className='right-text__heading'>What is LIGMA  ?</p>
