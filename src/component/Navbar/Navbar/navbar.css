@@ -1,15 +1,25 @@
-
+@import url(../../../fonts/stylesheet.css);
 
 nav{
-    background:#162523 ; 
+    /* background:#162523 ;  */
+
     position: sticky;
     top: 0px;
  
     z-index: 1000;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     color: #fff;
    
 }
+
+.navbar{
+    background-color: transparent;
+}
+  
+.navbar.colorChange{
+    background-color:   
+    #1c2a28;
+}
+
 .nav__container{
     display: flex;
     justify-content: space-between;
@@ -51,8 +61,11 @@ nav{
     transition: var(--transition);
     transform: translateY(-2px);
 }
-.launchapp-btn{
-
+.launchapp-btn a{
+   
+    color: #1c1c1c;
+    font-family: 'Logik Wide Semi', var(--font-oswald);
+   
 }
 .ham__cro{
     display: none;
@@ -88,8 +101,9 @@ nav{
         height: fit-content;
         width: 100%;
         z-index: -50;
-        background: rgba(49, 10, 88, 0.365);
-        border-radius: 10px 0 ;
+        background: 
+        #1c2a28 ;
+       border-radius: 2rem;
     }
     .nav__menu-link{
         display: flex;
@@ -117,6 +131,14 @@ nav{
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+ 
+        
+        
+    }
+    .nav__launchapp-btn{
+        color: #1c1c1c;
+        font-family: 'Logik Wide Semi', var(--font-oswald);
+       
     }
     .login-btn,
     .launchapp-btn{

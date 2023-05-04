@@ -1,9 +1,10 @@
 import React from 'react'
+import './roadmap.css'
 
 const Roadmap = () => {
   return (
     <div >
-    <div className="container hero__inner-cont">
+    <div className="container htb__inner-cont">
     
             
                 <div className="  hero__inner-cont__left ">

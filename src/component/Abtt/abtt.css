@@ -1,9 +1,29 @@
+@import url(../../fonts/stylesheet.css);
+.abtt-container{
+    background: rgb(1, 32, 25);
+    border-radius: 1.5rem;
+   
+  margin: 5rem 0;
+
+    /* margin-top: 3rem; */
+   
+    /* background: url(../../asset/why-us-pattern3.png); */
+    
+}
+.abtt-inner{
+
+ 
+    height: 60vh;
+     background: url(../../asset/why-us-pattern3.png);
+}
 
 
-.htb__inner-cont{
+
+.abtt-inner{
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   
     place-content: center;
     background: url(../../asset/why-us-pattern1.png);
@@ -11,57 +31,57 @@
   
   
   }
-  .image{
-    /* background-repeat: cover;  */
-    width: 90%; 
-    height: auto;
-    
-   
   
-  }
-  .roadmap__inner-cont__left{
+  .right-text{
     display: flex;
     gap: 1rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
- 
+
+  }
+  .right-text h2{
+    font-family: var(--font-oswald);
+    font-size: 20px;
+  }
+  .right-text h2 span{
+    color: #ca51e3;
+    font-family: 'Logik Wide Bold Oblique';
+  }
+  .right-text__heading{
+    color: #ca51e3;
+    font-size: 19px;
+    font-family: 'Logik Wide ',var(--font-roboto);
   }
   .buttondiv{ 
     display: flex;
     gap: 1rem;
   
   }
-  .roadmap__inner-cont__left h1{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 120%;
-    width: 90%;
-    
-  }
-  .roadmap__inner-cont__left p {
+
+  .left-text p {
+
+
     font-style: normal;
+    width: 552px;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 14px;
     line-height: 160%;
+    color: #E2EAFF;
+
   }
-  .roadmap__inner-cont__left__btn{
-    align-items: flex-start;
-    color: #fff;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
+
   
   
   @media screen and (max-width: 1020px) {
   
-    .roadmap__inner-cont__left{
+    .hero__inner-cont__left{
       justify-content: flex-start;
       align-items: flex-start;
-      /* margin: 5rem 0rem   ; */
+   
     }
   
-    .roadmap__inner-cont__left h1{
+    .hero__inner-cont__left h1{
     
       font-size:calc( 48px - 30%) ;
       line-height: calc(120% - 20%);
@@ -74,7 +94,7 @@
      
     }
   
-    .roadmap__inner-cont__left p {
+    .hero__inner-cont__left p {
       font-style: normal;
       width: calc(90% - 10%);
       font-weight: 400;
@@ -88,24 +108,24 @@
     }
   
   @media screen and (max-width: 790px) {
-    .roadmap__inner-cont{
+    .abtt-inner{
       display: grid;
       grid-template-columns:1fr;
       /* margin: 5rem 0rem ; */
       place-content: center;
     }
-    .roadmap__inner-cont__left p, .roadmap__inner-cont__left h1{
+    .hero__inner-cont__left p, .hero__inner-cont__left h1{
       text-align: center;
       width: 100%;
     }
    
-    .roadmap__inner-cont__left__btn{
+    .hero__inner-cont__left__btn{
       align-items: center;
       color: #fff;
       
     }
   
-    .roadmap__inner-cont__left{
+    .hero__inner-cont__left{
    
       flex-direction: column;
       justify-content: center;

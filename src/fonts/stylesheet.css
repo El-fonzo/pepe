@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Logik Wide';
+    src: url('Logik-WideBold.eot');
+    src: local('Logik Wide Bold'), local('Logik-WideBold'),
+        url('Logik-WideBold.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideBold.woff2') format('woff2'),
+        url('Logik-WideBold.woff') format('woff'),
+        url('Logik-WideBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logik Wide Light Oblique';
+    src: url('Logik-WideLightOblique.eot');
+    src: local('Logik Wide Light Oblique'), local('Logik-WideLightOblique'),
+        url('Logik-WideLightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideLightOblique.woff2') format('woff2'),
+        url('Logik-WideLightOblique.woff') format('woff'),
+        url('Logik-WideLightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide';
+    src: url('Logik-WideBlack.eot');
+    src: local('Logik Wide Black'), local('Logik-WideBlack'),
+        url('Logik-WideBlack.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideBlack.woff2') format('woff2'),
+        url('Logik-WideBlack.woff') format('woff'),
+        url('Logik-WideBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logik Wide Bold Oblique';
+    src: url('Logik-WideBoldOblique.eot');
+    src: local('Logik Wide Bold Oblique'), local('Logik-WideBoldOblique'),
+        url('Logik-WideBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideBoldOblique.woff2') format('woff2'),
+        url('Logik-WideBoldOblique.woff') format('woff'),
+        url('Logik-WideBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide Black Oblique';
+    src: url('Logik-WideBlackOblique.eot');
+    src: local('Logik Wide Black Oblique'), local('Logik-WideBlackOblique'),
+        url('Logik-WideBlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideBlackOblique.woff2') format('woff2'),
+        url('Logik-WideBlackOblique.woff') format('woff'),
+        url('Logik-WideBlackOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide';
+    src: url('Logik-WideLight.eot');
+    src: local('Logik Wide Light'), local('Logik-WideLight'),
+        url('Logik-WideLight.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideLight.woff2') format('woff2'),
+        url('Logik-WideLight.woff') format('woff'),
+        url('Logik-WideLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logik Wide Thin Oblique';
+    src: url('Logik-WideThinOblique.eot');
+    src: local('Logik Wide Thin Oblique'), local('Logik-WideThinOblique'),
+        url('Logik-WideThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideThinOblique.woff2') format('woff2'),
+        url('Logik-WideThinOblique.woff') format('woff'),
+        url('Logik-WideThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide Semi Bold Oblique';
+    src: url('Logik-WideSemiBoldOblique.eot');
+    src: local('Logik Wide Semi Bold Oblique'), local('Logik-WideSemiBoldOblique'),
+        url('Logik-WideSemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideSemiBoldOblique.woff2') format('woff2'),
+        url('Logik-WideSemiBoldOblique.woff') format('woff'),
+        url('Logik-WideSemiBoldOblique.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide';
+    src: url('Logik-WideMedium.eot');
+    src: local('Logik Wide Medium'), local('Logik-WideMedium'),
+        url('Logik-WideMedium.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideMedium.woff2') format('woff2'),
+        url('Logik-WideMedium.woff') format('woff'),
+        url('Logik-WideMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logik Wide Medium Oblique';
+    src: url('Logik-WideMediumOblique.eot');
+    src: local('Logik Wide Medium Oblique'), local('Logik-WideMediumOblique'),
+        url('Logik-WideMediumOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideMediumOblique.woff2') format('woff2'),
+        url('Logik-WideMediumOblique.woff') format('woff'),
+        url('Logik-WideMediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide Oblique';
+    src: url('Logik-WideOblique.eot');
+    src: local('Logik Wide Oblique'), local('Logik-WideOblique'),
+        url('Logik-WideOblique.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideOblique.woff2') format('woff2'),
+        url('Logik-WideOblique.woff') format('woff'),
+        url('Logik-WideOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Logik Wide';
+    src: url('Logik-WideThin.eot');
+    src: local('Logik Wide Thin'), local('Logik-WideThin'),
+        url('Logik-WideThin.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideThin.woff2') format('woff2'),
+        url('Logik-WideThin.woff') format('woff'),
+        url('Logik-WideThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logik Wide';
+    src: url('Logik-Wide.eot');
+    src: local('Logik Wide'), local('Logik-Wide'),
+        url('Logik-Wide.eot?#iefix') format('embedded-opentype'),
+        url('Logik-Wide.woff2') format('woff2'),
+        url('Logik-Wide.woff') format('woff'),
+        url('Logik-Wide.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Logik Wide Semi';
+    src: url('Logik-WideSemiBold.eot');
+    src: local('Logik Wide Semi Bold'), local('Logik-WideSemiBold'),
+        url('Logik-WideSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Logik-WideSemiBold.woff2') format('woff2'),
+        url('Logik-WideSemiBold.woff') format('woff'),
+        url('Logik-WideSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

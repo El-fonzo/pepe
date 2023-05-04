@@ -26,7 +26,7 @@ const Footer = () => {
 
           <div className='container footer__container'>
             
-            <div className='copyright'><small>2023 &copy; Sugondese All Right Reserved</small></div>
+            <div className='copyright'><small>2023 &copy; LIGMA All Right Reserved</small></div>
             
             <div className='footer__logo'>
               {

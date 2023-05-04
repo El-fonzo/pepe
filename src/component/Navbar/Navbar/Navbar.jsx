@@ -10,16 +10,28 @@ import "./navbar.css"
 import logo from "../../../asset/logo.jpg"
 
 const Navbar = () => {
-      const[open, setOpen] = useState(false)
+
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
+
+    const[open, setOpen] = useState(false)
 
     const NavMenu = () => {
       return (
         <div className="nav__menu-container ">
           <div className="nav__menu-container-link scale-up-ver-top">
             <ul className="nav__menu-link">
-              <li><a href="#doc">About</a></li>
-              <li><a href="#comm">Solution</a></li>
-              <li><a href="#comm">How it Works</a></li>
+              {/* <li><a href="#home">Home</a></li> */}
+              {/* <li><a href="#comm">Solution</a></li>
+              <li><a href="#comm">How it Works</a></li> */}
               {/* <li><a href="#comm">Roadmap</a></li>
               <li><a href="#comm">White paper</a></li> */}
             </ul>
@@ -28,7 +40,7 @@ const Navbar = () => {
 
               {/* <button className='nav__login-btn'><a href="/" target="_blank" rel="noopener noreferrer">buy</a></button> */}
               <button className="btn nav__launchapp-btn">
-                <a href="/" target="_blank" rel="noopener noreferrer">BUY $Sugs</a>
+                <a href="/" target="_blank" rel="noopener noreferrer">BUY</a>
               </button>
           </div>
           </div>
@@ -39,7 +51,7 @@ const Navbar = () => {
 
       return (
 
-          <nav>
+          <nav className={colorChange||open ? 'navbar colorChange' : 'navbar'}>
             <div className="container nav__container">
               
                 <div className="nav__logo">
@@ -49,9 +61,9 @@ const Navbar = () => {
               
                 <div className="nav__link">
                           <ul className="nav-link">
-                            <li><a href="#doc">About</a></li>
-                            <li><a href="#comm">Solution</a></li>
-                            <li><a href="#comm">How it Works</a></li>
+                            {/* <li><a href="#home">Home</a></li> */}
+                          {/* <li><a href="#comm">Solution</a></li>
+                          <li><a href="#comm">How it Works</a></li> */}
                             {/* <li><a href="#comm">Roadmap</a></li>
                             <li><a href="#comm">White paper</a></li> */}
                           </ul>

@@ -13,9 +13,15 @@ function About() {
     
   return (
     <div >
-        <div className="container hero_inner-cont">
+   
+       <div className="container hero_inner-cont">
+    
+            <div className="title"> 
 
-            <div className="title"> <h2>What is sugondese Token ?</h2></div>
+            
+            <h2>Our Utility</h2>
+            <p>"Make a Splash in the Bearish Market: Unite with Our Strong Community and Gain Utility with the Rising Meme Coin of 2023</p>
+            </div>
             <div className="card-holder">
             {
               data.map( item => 

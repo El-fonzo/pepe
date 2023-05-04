@@ -16,6 +16,9 @@
     text-align: center;
     font-size: 35px;
 }
+.title p{
+    text-align: center;
+}
 .card.about__card{
     text-align: center;
     padding: 1rem;
@@ -27,7 +30,7 @@
 .icon3{color:rgb(255, 240, 127)}
 
 .about__card-icon{
-    font-size: 2rem;
+    font-size: 4rem;
     width: fit-content;
     margin-inline: auto;
     padding: 0.6rem;
