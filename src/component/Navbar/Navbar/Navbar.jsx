@@ -33,10 +33,10 @@ const Navbar = () => {
         <div className="nav__menu-container ">
           <div className="nav__menu-container-link scale-up-ver-top">
             <ul className="nav__menu-link">
-              {/* <li><img src={twitter} alt="" /><a href=" https://twitter.com/ligmaerc ">Twitter</a></li>
-               <li><img src={etherscan} alt="" /><a href="#comm">Etherscan</a></li>
-              <li><img src={telegram} alt="" /><a href=" https://t.me/ligmacoin">Telegram</a></li> 
-               <li><a href={uniswap}>Uniswap</a></li> */}
+              <li><img src={twitter} alt="twitter" /><a href=" https://twitter.com/ligmaerc ">Twitter</a></li>
+               <li><img src={etherscan} alt="etherscan" /><a href="#comm">Etherscan</a></li>
+              <li><img src={telegram} alt="telegram" /><a href=" https://t.me/ligmacoin">Telegram</a></li> 
+               <li><img src={uniswap} alt="uniswap " /><a href="">Uniswap</a></li>
               {/* <li><a href="#comm">White paper</a></li> */}
             </ul>
 
