@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './hero1.css'
-import pepe from  '../../asset/newtwo.png'
+import lig from  '../../asset/newtwo.png'
 
 const Hero = () => {
    
@@ -31,7 +31,7 @@ const Hero = () => {
                   
                     <div className="hero-img">
                        
-                    <img src= {pepe} alt=""  className="image"/>
+                    <img src= {lig} alt="hero picture"  className="image"/>
                     </div>
                 </div>
 
