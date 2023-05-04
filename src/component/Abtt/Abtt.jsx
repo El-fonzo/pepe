@@ -14,7 +14,7 @@ const Abtt = () => {
             </div>
             <div className="left-text">
                 <p>We're here to ligma balls, nothing else. No secret sale,
-                   no seed, no taxes. Only have 2% of supply for personal profits, 2% for marketing. 
+                   no seed, no taxes. Only have 2% for strategic partnerships and 2% for listings. 
                   </p>
             </div>
         </div>

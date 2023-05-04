@@ -8,6 +8,10 @@ import { BiMenu, BiX } from "react-icons/bi";
 import { useState } from 'react'
 import "./navbar.css"
 import logo from "../../../asset/limalogo.png"
+import twitter from '../../../asset/twitter.png';
+import etherscan from '../../../asset/etherscan.png';
+import telegram from '../../../asset/telgram.png';
+import uniswap from '../../../asset/uniswap.png'
 
 const Navbar = () => {
 
@@ -29,11 +33,11 @@ const Navbar = () => {
         <div className="nav__menu-container ">
           <div className="nav__menu-container-link scale-up-ver-top">
             <ul className="nav__menu-link">
-              {/* <li><a href="#home">Home</a></li> */}
-              {/* <li><a href="#comm">Solution</a></li>
-              <li><a href="#comm">How it Works</a></li> */}
-              {/* <li><a href="#comm">Roadmap</a></li>
-              <li><a href="#comm">White paper</a></li> */}
+              {/* <li><img src={twitter} alt="" /><a href=" https://twitter.com/ligmaerc ">Twitter</a></li>
+               <li><img src={etherscan} alt="" /><a href="#comm">Etherscan</a></li>
+              <li><img src={telegram} alt="" /><a href=" https://t.me/ligmacoin">Telegram</a></li> 
+               <li><a href={uniswap}>Uniswap</a></li> */}
+              {/* <li><a href="#comm">White paper</a></li> */}
             </ul>
 
           <div className="nav__menu-btn">
@@ -61,11 +65,11 @@ const Navbar = () => {
               
                 <div className="nav__link">
                           <ul className="nav-link">
-                            {/* <li><a href="#home">Home</a></li> */}
-                          {/* <li><a href="#comm">Solution</a></li>
-                          <li><a href="#comm">How it Works</a></li> */}
-                            {/* <li><a href="#comm">Roadmap</a></li>
-                            <li><a href="#comm">White paper</a></li> */}
+                          <li><a href=" https://twitter.com/ligmaerc ">Twiiter</a></li>
+                          <li><a href="#comm">Etherscan</a></li>
+                          <li><a href=" https://t.me/ligmacoin">Telegram</a></li> 
+                          <li><a href="#comm">Uniswap</a></li>
+                            {/* <li><a href="#comm">White paper</a></li> */}
                           </ul>
                  </div>
               
