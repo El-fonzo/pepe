@@ -37,7 +37,7 @@ const Navbar = () => {
               <li><img src={twitter} alt="twitter" /><a href=" https://twitter.com/ligmaerc " target="_blank" rel="noopener noreferrer">Twitter</a></li>
                <li><img src={etherscan} alt="etherscan" /><a href="https://etherscan.io/token/0x8ec891a6f3897700de73c01d4ffe7f34f0330b66#code" target="_blank" rel="noopener noreferrer">Etherscan</a></li>
               <li><img src={telegram} alt="telegram" /><a href=" https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer">Telegram</a></li> 
-               <li><img src={uniswap} alt="uniswap " /><a href="https://app.uniswap.org/#/swap" target="_blank" rel="noopener noreferrer">Uniswap</a></li>
+               <li><img src={uniswap} alt="uniswap " /><a href="https://app.uniswap.org/#/swap?outputCurrency=0x8ec891a6f3897700de73c01d4ffe7f34f0330b66" target="_blank" rel="noopener noreferrer">Uniswap</a></li>
                <li><img src={dextool} alt="dextool " /><a href="https://www.dextools.io/app/en/ether/pair-explorer/0xa9671c88c60ecfda5d87176cee868867e84a0ad3" target="_blank" rel="noopener noreferrer">Dextool</a></li>
             </ul>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
                           <li><a href=" https://twitter.com/ligmaerc " target="_blank" rel="noopener noreferrer">Twiiter</a></li>
                           <li><a href="https://etherscan.io/token/0x8ec891a6f3897700de73c01d4ffe7f34f0330b66#code" target="_blank" rel="noopener noreferrer">Etherscan</a></li>
                           <li><a href=" https://t.me/ligmacoin" target="_blank" rel="noopener noreferrer">Telegram</a></li> 
-                          <li><a href="https://app.uniswap.org/#/swap" target="_blank" rel="noopener noreferrer">Uniswap</a></li>
+                          <li><a href="https://app.uniswap.org/#/swap?outputCurrency=0x8ec891a6f3897700de73c01d4ffe7f34f0330b66" target="_blank" rel="noopener noreferrer">Uniswap</a></li>
                             <li><a href="https://www.dextools.io/app/en/ether/pair-explorer/0xa9671c88c60ecfda5d87176cee868867e84a0ad3" target="_blank" rel="noopener noreferrer">Dextool</a></li>
                           </ul>
                  </div>
