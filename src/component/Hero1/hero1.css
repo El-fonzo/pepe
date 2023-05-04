@@ -40,6 +40,21 @@
   flex-wrap: wrap;
 
 }
+
+.logo-link a{
+  margin: 1rem;
+  
+}
+
+.logo-link a img{
+  width: 2rem;
+}
+
+.logo-link a img:hover{
+  transform: translateY(-5px);
+  transition: var(--transition);
+}
+
 .hero-heading{
   font-weight: 900;
   font-size: 48px;
@@ -96,11 +111,6 @@
 }
 
 .hero-img{
-
-
-
-
-
   background-size: contain;
   background-repeat: no-repeat;
 
