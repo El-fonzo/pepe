@@ -2,14 +2,12 @@ import React from 'react'
 import data from './data'
 import Card from '../../card/Card'
 import "./about.css"
-import pepe from  '../../asset/mmga1.png'
+
 
 function About() {
-    const style = {
-        backgroundSize: ' 100% 100%',
-        backgroundPosition: '0px 0px,0px 0px,0px 0px,0px 0px',
+
        
-    } 
+    
     
   return (
     <div >
